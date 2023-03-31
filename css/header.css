@@ -1,0 +1,44 @@
+
+
+header {
+    background-color: #303030;
+    padding: 20px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.drogaum {
+    cursor: pointer;
+    font-size: 2em;
+    font-weight:300;
+
+    display: flex;
+    padding-left: 16em;
+    
+}
+
+header nav {
+    margin-left:0.6em;
+    padding-left:auto;
+    align-items: center;
+    padding-right: 0.5;
+
+}
+
+header nav a {
+    margin-right: 0.6em;
+    font-size: 1.6em;
+    
+}
+
+header .drogaum, a {
+    color: #ffffff;
+    transition: 0.2s ease-in-out;
+}
+
+header .drogaum:hover, a:hover {
+    color: #00e2fb;
+    
+}
